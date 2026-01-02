@@ -1,9 +1,10 @@
-🔐 Login & Registration App (Flutter)
+LOGIN & REGISTRATION APP (FLUTTER)
 
-A clean and modern Flutter application that demonstrates a complete Login and Registration flow with form validation, Provider-based state management, and a user-friendly Material Design UI.
+A clean and modern Flutter application demonstrating a complete Login and Registration flow with form validation, Provider-based state management, and Material UI.
 
-✨ Features
-🔑 Login Screen
+FEATURES
+
+LOGIN SCREEN
 
 Email input field
 
@@ -11,15 +12,15 @@ Password input field with show / hide option
 
 Remember Me checkbox
 
-Forgot Password link (UI only)
+Forgot Password (UI only)
 
 Navigation to Registration screen
 
-Input validation with error messages
+Validation and error handling
 
 Successful login navigates to a Thank You screen
 
-📝 Registration Screen
+REGISTRATION SCREEN
 
 Name input field
 
@@ -33,21 +34,19 @@ Password match validation
 
 Navigation back to Login screen
 
-🔐 Authentication
+AUTHENTICATION
 
-Mock authentication implemented using Provider
+Mock authentication using Provider
 
-Registered user credentials are stored locally (in-memory)
+Registered credentials stored locally (in-memory)
 
-Login validates user credentials against registered data
+Login validates against registered credentials
 
-This structure allows easy replacement with Firebase or API-based authentication in the future.
-
-🧠 State Management
+STATE MANAGEMENT
 
 Provider (ChangeNotifier)
 
-Manages:
+Handles:
 
 Loading state
 
@@ -55,35 +54,43 @@ Error messages
 
 Authentication logic
 
-🎨 UI & UX
+UI AND UX
 
 Light, modern Material Design
 
 Clean spacing and readable typography
 
-Responsive layout for different screen sizes
+Responsive layout
 
-User-friendly form validation feedback
+User-friendly validation messages
 
-📂 Project Structure
+PROJECT STRUCTURE
+
 lib/
-├── main.dart
-├── provider/
-│   └── auth_provider.dart
-├── screens/
-│   ├── login_screen.dart
-│   ├── registration_screen.dart
-│   └── thank_you_screen.dart
-└── widget/
-    └── auth_widget.dart
 
-🚀 Getting Started
-Prerequisites
+main.dart
 
-Flutter SDK installed
+provider/
 
-Android Studio / VS Code
+auth_provider.dart
 
-Run the App
+screens/
+
+login_screen.dart
+
+registration_screen.dart
+
+thank_you_screen.dart
+
+widget/
+
+auth_widget.dart
+
+GETTING STARTED
+
+Install Flutter SDK
+
+Run the following commands:
+
 flutter pub get
 flutter run
